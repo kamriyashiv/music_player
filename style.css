@@ -1,0 +1,173 @@
+.detalis,
+.controls {
+    text-align: center;
+}
+
+body {
+    font-family: 'Cinzel', serif!important;
+}
+
+.detalis {
+    padding: 20px 10px;
+}
+
+img {
+    border-radius: 100px;
+    object-fit: cover;
+    height: 9rem;
+}
+
+.player {
+    padding: 11px;
+    width: 74%;
+    margin: 0 auto;
+    box-shadow: 0px 25px 48px 23px #80808017;
+    border-radius: 11px;
+    margin: 50px;
+    padding-bottom: 45px;
+}
+
+.load {
+    left: 50px;
+    right: 50px;
+    margin: 0 auto;
+    top: 260px;
+    position: absolute;
+    animation: rot 3s infinite;
+    border-radius: 100px;
+}
+
+.load_content {
+    left: 50px;
+    right: 50px;
+    margin: 0 auto;
+    top: 352px;
+    position: absolute;
+    text-align: center;
+}
+
+a>i {
+    color: rgb(0 0 0);
+    font-size: 26px;
+    padding: 10px;
+}
+
+ul>li {
+    display: inline-flex;
+    margin: 30px 15px;
+    padding: 10px 37px
+}
+
+.banner>img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0px 25px 48px 23px #80808017;
+    border-radius: 30px;
+}
+
+.logo {
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+    background: rgb(0 0 0);
+    color: rgb(255 255 255);
+}
+
+.min,
+.footer_content,
+footer {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+li {
+    box-shadow: 0px 25px 48px 23px #80808017;
+}
+
+input {
+    width: 65%;
+    padding: 10px;
+    margin: 34px!important;
+    background: rgb(255 255 255);
+    /* border: none; */
+    border-radius: 39px;
+    border: 1px solid rgb(128 128 128);
+}
+
+.musics>img {
+    width: 149px;
+    height: 155px;
+}
+
+.anim {
+    animation: rotate 5s infinite;
+}
+
+@media(max-width:1200px) {
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    ul {
+        display: inline-flex;
+        width: 100%;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+        overflow: auto;
+        scroll-snap-align: start;
+        flex-shrink: 1;
+        transform-origin: center center;
+        scroll-snap-type: x mandatory;
+        text-align: center;
+    }
+    ul>li {
+        display: inline;
+        border: 1px solid rgb(211 211 211 / 0%);
+        padding: 15px;
+        margin: 10px 10px;
+        box-shadow: 0 1px 3px rgb(36 39 44 / 15%);
+        border-radius: 2px;
+        line-height: 13px;
+        box-shadow: 0px 25px 48px 23px #80808017;
+        border-radius: 11px;
+    }
+    .musics>img {
+        width: 181px;
+        height: 175px;
+    }
+}
+
+@keyframes rot {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(490deg);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(1000deg);
+    }
+}
